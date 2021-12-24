@@ -29,8 +29,8 @@ func getCard(filepath string) *image.RGBA {
 }
 
 func main() {
-	card := getCard("card.png")
-	file, _ := os.Create("card2.png")
+	card := getCard("assets/card.png")
+	file, _ := os.Create("temp/card2.png")
 
 	defer file.Close()
 

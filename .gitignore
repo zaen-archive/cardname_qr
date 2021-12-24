@@ -1,1 +1,4 @@
 generate_qr
+temp/*
+
+!temp/.gitkeep
