@@ -1,4 +1,4 @@
 generate_qr
 temp/*
 
-!temp/.gitkeep
+!temp/card/.gitkeep
